@@ -1,11 +1,10 @@
-Sudoku game with local database connection
+# Sudoku Game
 
-Generate site reports (Main report in target/deploy):
-mvn clean test site site:deploy
+## Authors
+* [Piotr Antczak](https://github.com/aantczakpiotr)
+* [Bartosz Kępka](https://github.com/bartosz-kepka)
 
-Start GUI:
-mvn clean install
-mvn -pl View javafx:run
-
-Logs:
-View/Sudoku.logs
+## Launch GUI
+When in project root directory execute following commands:
+* ```mvn clean install```
+* ```mvn -pl View javafx:run```
